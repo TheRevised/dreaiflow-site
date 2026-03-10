@@ -536,6 +536,13 @@ main {
   margin-bottom: 14px;
 }
 
+.plan-extra-title {
+  margin: 2px 0 10px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
 .plan-card ul,
 .about-card ul {
   margin: 0 0 22px;
@@ -550,6 +557,18 @@ main {
 
 .plan-card .btn {
   margin-top: auto;
+}
+
+.support-section {
+  margin-top: 34px;
+}
+
+.support-header {
+  margin-bottom: 22px;
+}
+
+.support-card {
+  max-width: 760px;
 }
 
 .about-layout,
