@@ -13,18 +13,25 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="logo" href="index.html" aria-label="DreaiFlow inicio">
-        <span class="logo-mark">D</span><span class="logo-text">reaiFlow</span>
-      </a>
-      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="site-nav" class="site-nav">
-        <a class="active" href="#inicio">Inicio</a>
-        <a href="#productos">Productos</a>
-        <a href="#nosotros">Nosotros</a>
-      </nav>
+    <div class="container">
+      <div class="nav-shell">
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <div class="nav-group nav-group-left">
+            <a class="active" href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+          </div>
+          <a class="logo nav-logo" href="index.html" aria-label="DreaiFlow inicio">
+            <span class="logo-mark">D</span><span class="logo-text">reAIflow</span>
+          </a>
+          <div class="nav-group nav-group-right">
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contáctanos</a>
+          </div>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -312,7 +319,7 @@
           </article>
         </div>
 
-        <div class="cta-panel">
+        <div id="contacto" class="cta-panel section-anchor">
           <div>
             <p class="section-tag">Siguiente paso</p>
             <h2 class="section-title">Lleva tus procesos a un flujo mas inteligente</h2>
